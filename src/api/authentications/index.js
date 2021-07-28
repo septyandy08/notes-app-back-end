@@ -15,8 +15,8 @@ module.exports = {
             usersService,
             tokenManager,
             validator,
-            );
+        );
             
-            server.route(routes(authenticationsHandler));
-        },
-    };
+        server.route(routes(authenticationsHandler));
+    },
+};
